@@ -4,6 +4,7 @@
 The Hybrid Morse Code Translator is a two-way communication system bridging a laptop and an Arduino UNO. It operates in two modes:
 
 Text → Morse: Type any text (alphabets and numbers) on your laptop. The Python script encodes it and sends it over serial - the Arduino drives a buzzer and LED to signal the Morse code in real time.
+
 Morse → Text: Press the physical button on the breadboard to tap out Morse code. The Arduino reads the timing of each press, sends it over serial, and the Python script decodes and displays the English translation on screen.
 
 
@@ -24,7 +25,7 @@ ComponentQuantityArduino UNO1Breadboard1LED (Blue)1Piezo Buzzer1Push Button1Resi
 Built and simulated in Tinkercad
 
 Pin Connections:
-ComponentArduino PinLED (+ resistor)Digital 8Piezo BuzzerDigital 9Push ButtonDigital 2
+Component Arduino PinLED (+ resistor)Digital 8Piezo BuzzerDigital 9Push ButtonDigital 2
 
 🚀 Getting Started
 Prerequisites
