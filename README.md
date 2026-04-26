@@ -148,7 +148,7 @@ hybrid-morse-translator/
 | L | `.-..` | Y | `-.--` |
 | M | `--` | Z | `--..` |
 
-Full map available in `morse_code_map.py`
+Full map available in `Morse_code_map.md`
 
 ---
 
